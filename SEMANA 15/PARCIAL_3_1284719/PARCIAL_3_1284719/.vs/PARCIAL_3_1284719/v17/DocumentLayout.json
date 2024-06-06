@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 15\\PARCIAL_3_1284719\\PARCIAL_3_1284719\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DF218C-19E8-4603-8533-0BC40B068471}|PARCIAL_3_1284719.csproj|c:\\users\\julio\\downloads\\primerciclo2024\\lenguajes formales y automatas\\semana 15\\parcial_3_1284719\\parcial_3_1284719\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DF218C-19E8-4603-8533-0BC40B068471}|PARCIAL_3_1284719.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 15\\PARCIAL_3_1284719\\PARCIAL_3_1284719\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 15\\PARCIAL_3_1284719\\PARCIAL_3_1284719\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T00:00:57.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

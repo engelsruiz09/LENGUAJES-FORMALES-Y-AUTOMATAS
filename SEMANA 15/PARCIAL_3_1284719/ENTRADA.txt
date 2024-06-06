@@ -1,0 +1,19 @@
+ENTRADA:
+nombre Juan
+
+
+
+CONSUMIDOS:
+
+struct Persona  int  edad  30 string 
+
+
+
+
+PILA:
+
+struct<Struct_nombre><identificador_siguiente>
+
+
+
+

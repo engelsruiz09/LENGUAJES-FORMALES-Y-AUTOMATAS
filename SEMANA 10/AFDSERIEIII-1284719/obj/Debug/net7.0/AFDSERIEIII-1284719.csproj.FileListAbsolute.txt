@@ -1,0 +1,14 @@
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\bin\Debug\net7.0\AFDSERIEIII-1284719.exe
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\bin\Debug\net7.0\AFDSERIEIII-1284719.deps.json
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\bin\Debug\net7.0\AFDSERIEIII-1284719.runtimeconfig.json
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\bin\Debug\net7.0\AFDSERIEIII-1284719.dll
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\bin\Debug\net7.0\AFDSERIEIII-1284719.pdb
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.AssemblyInfoInputs.cache
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.AssemblyInfo.cs
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.dll
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\refint\AFDSERIEIII-1284719.dll
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.pdb
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\AFDSERIEIII-1284719.genruntimeconfig.cache
+C:\Users\julio\Downloads\AFDSERIEIII-1284719\obj\Debug\net7.0\ref\AFDSERIEIII-1284719.dll

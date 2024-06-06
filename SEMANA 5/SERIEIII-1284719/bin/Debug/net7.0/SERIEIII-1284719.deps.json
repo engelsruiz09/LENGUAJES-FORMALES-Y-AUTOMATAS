@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SERIEIII-1284719/1.0.0": {
+        "runtime": {
+          "SERIEIII-1284719.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SERIEIII-1284719/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\julio\Desktop\HT5-1284719\HT5\bin\Debug\net7.0\HT5.exe
+C:\Users\julio\Desktop\HT5-1284719\HT5\bin\Debug\net7.0\HT5.deps.json
+C:\Users\julio\Desktop\HT5-1284719\HT5\bin\Debug\net7.0\HT5.runtimeconfig.json
+C:\Users\julio\Desktop\HT5-1284719\HT5\bin\Debug\net7.0\HT5.dll
+C:\Users\julio\Desktop\HT5-1284719\HT5\bin\Debug\net7.0\HT5.pdb
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.AssemblyInfoInputs.cache
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.AssemblyInfo.cs
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.csproj.CoreCompileInputs.cache
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.dll
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\refint\HT5.dll
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.pdb
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\HT5.genruntimeconfig.cache
+C:\Users\julio\Desktop\HT5-1284719\HT5\obj\Debug\net7.0\ref\HT5.dll

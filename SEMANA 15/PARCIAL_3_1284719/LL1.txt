@@ -1,0 +1,25 @@
+variables: de dos tipos 
+letra: las letras mayusculas y minusculas
+digito: los digitos del 0 al 9
+e: epsilon
+entero: es digito
+
+<S> := struct<Struct_nombre><declaraciones_variables>
+
+<Struct_nombre> := <identificador>
+
+<identificador> := <letra><identificador_siguiente>
+
+<identificador_siguiente> := <letra><identificador_siguiente> | <digito><idenficador_siguiente> | e
+
+<letra> := [A-Za-z]
+
+<digito> := [0-9]
+
+<declaraciones_variables> := <declaracion><declaraciones_variables> | e
+
+<declaracion> := <tipo><indentificador>
+
+<tipo> := entero | cadena
+
+

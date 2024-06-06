@@ -1,0 +1,38 @@
+Libros: Título, ISBN
+
+Películas: Título, año de lanzamiento
+
+Recursos Electrónicos: URL
+
+Tesis: Titulo, Autor
+
+======================================================================================================
+<alpha_numerico>: Cualquier letra (Mayúscula o minúscula) o número, incluyendo espacios en blanco.
+<letra>: Únicamente letras del alfabeto español
+<digito>:= numeros del 0 al 9 y épsilon
+<numero>: <digito><digito>
+<fecha>: <digito><digito><digito><digito>
+<espacio> : espacio en blanco
+
+
+<S> := <libro><A> | <pelicula><A> | <electronico><A> | <tesis><A>
+
+<A> := *<libro><A> | #<pelicula><A> | ?<electronico><A> | $<tesis><A> | &
+            
+<libro> := <titulo>/<ISBN>
+
+<titulo>: <alpha_numerico><alpha_numerico>
+
+<ISBN> := <numero>
+
+<pelicula> := <titulo>/<año>
+
+<año> := <fecha>
+
+<electronico> := <URL>
+
+<URL> := http://<alpha_numerico>.com | https://<alpha_numerico>.com
+
+<tesis> := <titulo>/<autor>
+
+<autor> := <letra><letra> | <letra><espacio><letra> | <letra><letra><autor>

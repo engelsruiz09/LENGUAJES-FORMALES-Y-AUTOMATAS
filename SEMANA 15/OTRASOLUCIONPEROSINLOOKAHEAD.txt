@@ -1,0 +1,140 @@
+using System;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        AutomataPila automata = new AutomataPila();
+
+        // Cadena de entrada única que incluye varios tipos de elementos
+        string input = "C,C++ Java y UML/6071512123*Desarrolo Humano/6071509335#Avengers/2012?www.url.edu.gt";
+
+        bool resultado = automata.EsAceptada(input);
+        Console.WriteLine($"La cadena '{input}' es {(resultado ? "aceptada" : "no aceptada")} por el autómata.");
+        Console.ReadKey();
+    }
+}
+
+public class AutomataPila
+{
+
+    private void S0(Stack<string> stack)
+    {
+        //stack.Push("#");
+        stack.Push("S");
+    }
+
+    private int S1(string input, int index, Stack<string> stack)
+    {
+        while (index < input.Length)
+        {
+            string segmento = input.Substring(index);
+
+            // Procesa cada tipo según su delimitador específico
+            if (segmento.StartsWith("*"))
+            {
+                index++; // Salta el delimitador
+                string[] partes = segmento.Substring(1).Split(new[] { '*', '#', '?', '$' }, 2);
+                string libro = partes[0].Trim();
+                if (stack.Peek() == "libro")
+                {
+                    stack.Pop();
+                    stack.Push( libro);
+                }
+                index += libro.Length;
+            }
+            else if (segmento.StartsWith("#"))
+            {
+                index++; // Salta el delimitador
+                string[] partes = segmento.Substring(1).Split(new[] { '*', '#', '?', '$' }, 2);
+                string pelicula = partes[0].Trim();
+                if (stack.Peek() == "pelicula")
+                {
+                    stack.Pop();
+                    stack.Push( pelicula);
+                }
+                index += pelicula.Length;
+            }
+            else if (segmento.StartsWith("?"))
+            {
+                index++; // Salta el delimitador
+                string[] partes = segmento.Substring(1).Split(new[] { '*', '#', '?', '$' }, 2);
+                string electronico = partes[0].Trim();
+                if (stack.Peek() == "electronico")
+                {
+                    stack.Pop();
+                    stack.Push(electronico);
+                }
+                index += electronico.Length;
+            }
+            else if (segmento.StartsWith("$"))
+            {
+                index++; // Salta el delimitador
+                string[] partes = segmento.Substring(1).Split(new[] { '*', '#', '?', '$' }, 2);
+                string tesis = partes[0].Trim();
+                if (stack.Peek() == "tesis")
+                {
+                    stack.Pop();
+                    stack.Push( tesis);
+                }
+                index += tesis.Length;
+            }
+            else
+            {
+                // Procesar contenido general hasta encontrar el próximo delimitador
+                int nextDelimiter = segmento.IndexOfAny(new char[] { '*', '#', '?', '$' });
+                if (nextDelimiter != -1)
+                {
+                    index += nextDelimiter;  // Avanzar al siguiente delimitador sin procesar
+                }
+                else
+                {
+                    index = input.Length;  // No hay más delimitadores, procesar hasta el final
+                }
+            }
+        }
+
+        if (stack.Peek() == "S" && stack.Count == 1)
+        {
+            stack.Pop();
+        }
+
+        return index;
+    }
+
+    private void S2(string input, int index, Stack<string> stack)
+    {
+        if (index != input.Length)
+        {
+            throw new Exception("Símbolos pendientes de consumir cadena no aceptada");
+        }
+
+        if (stack.Count > 0)
+        {
+            throw new Exception("Símbolos pendientes de procesar cadena no aceptada");
+        }
+    }
+
+    public bool EsAceptada(string input)
+    {
+        bool cadenaAceptada = false;
+        int index = 0;
+        Stack<string> stack = new Stack<string>();
+
+        try
+        {
+            S0(stack); // Inicia la pila con el estado inicial y el símbolo de pila vacía
+            index = S1(input, index, stack);  // Procesa la cadena
+            S2(input, index, stack);  // Verifica el estado final de la pila y de la cadena
+            cadenaAceptada = true;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+
+        return cadenaAceptada;
+    }
+}

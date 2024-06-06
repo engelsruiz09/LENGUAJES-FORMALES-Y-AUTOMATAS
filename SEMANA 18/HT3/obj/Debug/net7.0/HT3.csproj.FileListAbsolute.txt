@@ -1,0 +1,14 @@
+C:\Users\julio\Downloads\HT3\bin\Debug\net7.0\HT3.exe
+C:\Users\julio\Downloads\HT3\bin\Debug\net7.0\HT3.deps.json
+C:\Users\julio\Downloads\HT3\bin\Debug\net7.0\HT3.runtimeconfig.json
+C:\Users\julio\Downloads\HT3\bin\Debug\net7.0\HT3.dll
+C:\Users\julio\Downloads\HT3\bin\Debug\net7.0\HT3.pdb
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.AssemblyInfoInputs.cache
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.AssemblyInfo.cs
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.dll
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\refint\HT3.dll
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.pdb
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\HT3.genruntimeconfig.cache
+C:\Users\julio\Downloads\HT3\obj\Debug\net7.0\ref\HT3.dll

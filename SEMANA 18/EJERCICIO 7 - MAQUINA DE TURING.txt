@@ -1,0 +1,39 @@
+initial q0,
+accept q_accept,
+reject q_reject,
+
+
+q0 0 q0 0 r,
+q0 1 q0 1 r,
+q0 2 q0 2 r,
+q0 3 q0 3 r,
+q0 4 q0 4 r,
+q0 5 q0 5 r,
+q0 6 q0 6 r,
+q0 7 q0 7 r,
+q0 8 q0 8 r,
+q0 9 q0 9 r,
+q0 _ q_check _ l,
+q0 * q_reject * r,  
+
+
+q_check 0 q_even 0 r,
+q_check 1 q_odd 1 r,
+q_check 2 q_even 2 r,
+q_check 3 q_odd 3 r,
+q_check 4 q_even 4 r,
+q_check 5 q_five 5 r,
+q_check 6 q_even 6 r,
+q_check 7 q_odd 7 r,
+q_check 8 q_even 8 r,
+q_check 9 q_odd 9 r,
+
+
+q_even _ q_write_even _ r,
+q_odd _ q_write_odd _ r,
+q_five _ q_write_five _ r,
+
+
+q_write_even _ q_accept P r,
+q_write_odd _ q_accept I r,
+q_write_five _ q_accept M r

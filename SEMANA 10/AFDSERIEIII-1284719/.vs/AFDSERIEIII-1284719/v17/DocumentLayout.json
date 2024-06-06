@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 10\\AFDSERIEIII-1284719\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0CD315F-DB35-4A4D-B316-3278D900EB1A}|AFDSERIEIII-1284719.csproj|c:\\users\\julio\\downloads\\primerciclo2024\\lenguajes formales y automatas\\semana 10\\afdserieiii-1284719\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0CD315F-DB35-4A4D-B316-3278D900EB1A}|AFDSERIEIII-1284719.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 10\\AFDSERIEIII-1284719\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\julio\\Downloads\\PRIMERCICLO2024\\LENGUAJES FORMALES Y AUTOMATAS\\SEMANA 10\\AFDSERIEIII-1284719\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAkwAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:44:50.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
